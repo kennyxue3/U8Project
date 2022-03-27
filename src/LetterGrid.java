@@ -13,7 +13,7 @@ public class LetterGrid {
 
     /**
      * Initializes a LetterGrid object with the correct answer
-     * @param answerWord The correct answer
+     * @param answerWord the correct answer
      */
     public LetterGrid(String answerWord) {
         currentRow = 0;
@@ -23,7 +23,7 @@ public class LetterGrid {
 
     /**
      * Adds a guess to the LetterGrid, checks what letters are found in the answer
-     * @param word Guess to add
+     * @param word guess to add
      */
     public void addWord(String word) {
         for (int i = 0; i < letterGrid[0].length; i++) {
@@ -42,7 +42,7 @@ public class LetterGrid {
 
     /**
      * Returns the LetterGrid stylized
-     * @return The grid of letters stylized
+     * @return the grid of letters stylized
      */
     public String toString() {
         String returnString = "";

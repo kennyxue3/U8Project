@@ -8,7 +8,7 @@ public class Word {
 
     /**
      * Initializes a Word object with a String it represents
-     * @param word THe String to be stored in the Word objet
+     * @param word the String to be stored in the Word objet
      */
     public Word(String word) {
         this.word = word;
@@ -24,7 +24,7 @@ public class Word {
 
     /**
      * Helper method to check if other Word stored String matches
-     * @param o Other Word object to check
+     * @param o other Word object to check
      * @return true if stored String matches, false otherwise
      */
     @Override
